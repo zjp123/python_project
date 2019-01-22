@@ -1,0 +1,480 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 11 01:29:32 2018] ***
+compiled with version: 5.4.0 20160609 on 11 November 2018 06:49:40
+os: Linux-4.15.0-36-generic #39~16.04.1-Ubuntu SMP Tue Sep 25 08:59:23 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/zhangjunpeng/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/zhangjunpeng/.virtualenvs/zjp_py3/bin/uwsgi
+chdir() to /home/zhangjunpeng/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33559 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x8cbe90
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x8cbe90 pid: 35117 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 35117)
+spawned uWSGI worker 1 (pid: 35119, cores: 2)
+spawned uWSGI http 1 (pid: 35120)
+[pid: 35119|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 653 bytes} [Sun Nov 11 17:30:25 2018] GET / => generated 74 bytes in 1502 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 35119|app: 0|req: 2/2] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 17:30:26 2018] GET /favicon.ico => generated 85 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 35119|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 663 bytes} [Sun Nov 11 17:30:31 2018] GET /index => generated 27 bytes in 6229 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 35119|app: 0|req: 4/4] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 17:30:37 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 35119|app: 0|req: 5/5] 127.0.0.1 () {38 vars in 665 bytes} [Sun Nov 11 17:30:44 2018] GET /index/ => generated 80 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 35119|app: 0|req: 6/6] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 17:30:44 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 35119|app: 0|req: 7/7] 127.0.0.1 () {38 vars in 663 bytes} [Sun Nov 11 17:30:48 2018] GET /index => generated 27 bytes in 6149 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 1)
+[pid: 35119|app: 0|req: 8/8] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 17:30:54 2018] GET /favicon.ico => generated 85 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 35119|app: 0|req: 9/9] 127.0.0.1 () {38 vars in 653 bytes} [Sun Nov 11 17:30:59 2018] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 35119|app: 0|req: 10/10] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 17:30:59 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 35120)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 11 01:31:23 2018] ***
+compiled with version: 5.4.0 20160609 on 11 November 2018 06:49:40
+os: Linux-4.15.0-36-generic #39~16.04.1-Ubuntu SMP Tue Sep 25 08:59:23 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/zhangjunpeng/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/zhangjunpeng/.virtualenvs/zjp_py3/bin/uwsgi
+chdir() to /home/zhangjunpeng/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45189 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1439e90
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1439e90 pid: 35161 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 35161)
+spawned uWSGI worker 1 (pid: 35163, cores: 2)
+spawned uWSGI http 1 (pid: 35164)
+[pid: 35163|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 662 bytes} [Sun Nov 11 17:31:50 2018] GET /index => generated 27 bytes in 7058 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 35163|app: 0|req: 2/2] 127.0.0.1 () {36 vars in 639 bytes} [Sun Nov 11 17:31:57 2018] GET /favicon.ico => generated 85 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 35163|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 676 bytes} [Sun Nov 11 17:32:04 2018] GET /static/index => generated 86 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 35163|app: 0|req: 4/4] 127.0.0.1 () {36 vars in 639 bytes} [Sun Nov 11 17:32:04 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 35163|app: 0|req: 5/5] 127.0.0.1 () {38 vars in 676 bytes} [Sun Nov 11 17:32:07 2018] GET /static/index => generated 86 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 35163|app: 0|req: 6/6] 127.0.0.1 () {36 vars in 639 bytes} [Sun Nov 11 17:32:07 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 35163|app: 0|req: 7/7] 127.0.0.1 () {38 vars in 686 bytes} [Sun Nov 11 17:32:11 2018] GET /static/index.html => generated 91 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 35163|app: 0|req: 8/8] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 17:32:12 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 35163|app: 0|req: 9/9] 127.0.0.1 () {38 vars in 653 bytes} [Sun Nov 11 17:32:34 2018] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 35163|app: 0|req: 10/10] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 17:32:34 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 35164)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 11 01:33:44 2018] ***
+compiled with version: 5.4.0 20160609 on 11 November 2018 06:49:40
+os: Linux-4.15.0-36-generic #39~16.04.1-Ubuntu SMP Tue Sep 25 08:59:23 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/zhangjunpeng/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/zhangjunpeng/.virtualenvs/zjp_py3/bin/uwsgi
+chdir() to /home/zhangjunpeng/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35639 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/zhangjunpeng/.virtualenvs/zjp_py3
+Python main interpreter initialized at 0x21aefd0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x21aefd0 pid: 35208 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 35208)
+spawned uWSGI worker 1 (pid: 35210, cores: 2)
+spawned uWSGI worker 2 (pid: 35211, cores: 2)
+spawned uWSGI worker 3 (pid: 35212, cores: 2)
+spawned uWSGI worker 4 (pid: 35213, cores: 2)
+spawned uWSGI http 1 (pid: 35218)
+[pid: 35213|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 653 bytes} [Sun Nov 11 17:33:48 2018] GET / => generated 74 bytes in 848 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 35213|app: 0|req: 2/2] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 17:33:49 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 35212|app: 0|req: 1/3] 127.0.0.1 () {38 vars in 663 bytes} [Sun Nov 11 17:33:56 2018] GET /index => generated 27 bytes in 7455 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 35212|app: 0|req: 2/4] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 17:34:04 2018] GET /favicon.ico => generated 85 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 35213|app: 0|req: 3/5] 127.0.0.1 () {38 vars in 663 bytes} [Sun Nov 11 17:35:58 2018] GET /index => generated 27 bytes in 6173 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 1)
+[pid: 35212|app: 0|req: 3/6] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 17:36:05 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 35210|app: 0|req: 1/7] 127.0.0.1 () {38 vars in 687 bytes} [Sun Nov 11 17:36:15 2018] GET /static/index.html => generated 91 bytes in 1302 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 35212|app: 0|req: 4/8] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 17:36:16 2018] GET /favicon.ico => generated 85 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 35210|app: 0|req: 2/9] 127.0.0.1 () {38 vars in 677 bytes} [Sun Nov 11 18:38:37 2018] GET /static/index => generated 86 bytes in 70 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 35212|app: 0|req: 5/10] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 18:38:37 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 35210|app: 0|req: 3/11] 127.0.0.1 () {38 vars in 653 bytes} [Sun Nov 11 18:38:47 2018] GET / => generated 74 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 35212|app: 0|req: 6/12] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 18:38:47 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 35218)
+worker 2 buried after 1 seconds
+worker 1 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 11 02:56:38 2018] ***
+compiled with version: 5.4.0 20160609 on 11 November 2018 06:49:40
+os: Linux-4.15.0-36-generic #39~16.04.1-Ubuntu SMP Tue Sep 25 08:59:23 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/zhangjunpeng/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/zhangjunpeng/.virtualenvs/zjp_py3/bin/uwsgi
+chdir() to /home/zhangjunpeng/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46497 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/zhangjunpeng/.virtualenvs/zjp_py3
+Python main interpreter initialized at 0x21aafd0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x21aafd0 pid: 36111 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 36111)
+spawned uWSGI worker 1 (pid: 36113, cores: 2)
+spawned uWSGI worker 2 (pid: 36114, cores: 2)
+spawned uWSGI worker 3 (pid: 36115, cores: 2)
+spawned uWSGI worker 4 (pid: 36116, cores: 2)
+spawned uWSGI http 1 (pid: 36117)
+[pid: 36113|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 663 bytes} [Sun Nov 11 18:57:32 2018] GET /index => generated 79 bytes in 1576 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 36113|app: 0|req: 2/2] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 18:57:33 2018] GET /favicon.ico => generated 85 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 36117)
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 11 05:14:45 2018] ***
+compiled with version: 5.4.0 20160609 on 11 November 2018 06:49:40
+os: Linux-4.15.0-36-generic #39~16.04.1-Ubuntu SMP Tue Sep 25 08:59:23 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/zhangjunpeng/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/zhangjunpeng/.virtualenvs/zjp_py3/bin/uwsgi
+chdir() to /home/zhangjunpeng/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35339 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/zhangjunpeng/.virtualenvs/zjp_py3
+Python main interpreter initialized at 0x234cfd0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x234cfd0 pid: 37947 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37947)
+spawned uWSGI worker 1 (pid: 37949, cores: 2)
+spawned uWSGI worker 2 (pid: 37950, cores: 2)
+spawned uWSGI worker 3 (pid: 37951, cores: 2)
+spawned uWSGI worker 4 (pid: 37952, cores: 2)
+spawned uWSGI http 1 (pid: 37956)
+[pid: 37951|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 663 bytes} [Sun Nov 11 21:14:58 2018] GET /index => generated 3118 bytes in 1314 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 37951|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 656 bytes} [Sun Nov 11 21:14:59 2018] GET /static/css/reset.css => generated 94 bytes in 60 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37952|app: 0|req: 2/5] 127.0.0.1 () {38 vars in 661 bytes} [Sun Nov 11 21:14:59 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 4212 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37952|app: 0|req: 2/5] 127.0.0.1 () {38 vars in 653 bytes} [Sun Nov 11 21:14:59 2018] GET /static/js/jquery-ui.min.js => generated 100 bytes in 4199 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37950|app: 0|req: 1/5] 127.0.0.1 () {38 vars in 654 bytes} [Sun Nov 11 21:14:59 2018] GET /static/css/main.css => generated 93 bytes in 4225 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37949|app: 0|req: 1/6] 127.0.0.1 () {38 vars in 637 bytes} [Sun Nov 11 21:14:59 2018] GET /static/js/slide.js => generated 92 bytes in 4226 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37950|app: 0|req: 2/7] 127.0.0.1 () {38 vars in 631 bytes} [Sun Nov 11 21:15:04 2018] GET /images/logo.png => generated 89 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37949|app: 0|req: 2/8] 127.0.0.1 () {38 vars in 653 bytes} [Sun Nov 11 21:15:04 2018] GET /static/js/jquery-ui.min.js => generated 100 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37952|app: 0|req: 3/9] 127.0.0.1 () {38 vars in 637 bytes} [Sun Nov 11 21:15:04 2018] GET /static/js/slide.js => generated 92 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37952|app: 0|req: 4/10] 127.0.0.1 () {38 vars in 631 bytes} [Sun Nov 11 21:15:04 2018] GET /images/logo.png => generated 89 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37951|app: 0|req: 3/11] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 21:15:04 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37951|app: 0|req: 4/12] 127.0.0.1 () {38 vars in 663 bytes} [Sun Nov 11 21:18:46 2018] GET /index => generated 27 bytes in 278 msecs (HTTP/1.1 500) 3 headers in 106 bytes (1 switches on core 1)
+[pid: 37952|app: 0|req: 5/13] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 21:18:46 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37949|app: 0|req: 3/14] 127.0.0.1 () {38 vars in 663 bytes} [Sun Nov 11 21:19:28 2018] GET /index => generated 3166 bytes in 499 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 37952|app: 0|req: 6/15] 127.0.0.1 () {38 vars in 656 bytes} [Sun Nov 11 21:19:28 2018] GET /static/css/reset.css => generated 94 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37949|app: 0|req: 4/16] 127.0.0.1 () {38 vars in 654 bytes} [Sun Nov 11 21:19:28 2018] GET /static/css/main.css => generated 93 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37951|app: 0|req: 5/17] 127.0.0.1 () {38 vars in 661 bytes} [Sun Nov 11 21:19:29 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37951|app: 0|req: 6/18] 127.0.0.1 () {38 vars in 653 bytes} [Sun Nov 11 21:19:29 2018] GET /static/js/jquery-ui.min.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37952|app: 0|req: 7/19] 127.0.0.1 () {38 vars in 637 bytes} [Sun Nov 11 21:19:29 2018] GET /static/js/slide.js => generated 92 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37950|app: 0|req: 3/20] 127.0.0.1 () {38 vars in 631 bytes} [Sun Nov 11 21:19:29 2018] GET /images/logo.png => generated 89 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37950|app: 0|req: 4/21] 127.0.0.1 () {38 vars in 631 bytes} [Sun Nov 11 21:19:29 2018] GET /images/logo.png => generated 89 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37951|app: 0|req: 7/22] 127.0.0.1 () {36 vars in 640 bytes} [Sun Nov 11 21:19:29 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+设置缓存
+[pid: 37951|app: 0|req: 8/23] 127.0.0.1 () {38 vars in 662 bytes} [Mon Nov 12 10:58:28 2018] GET /index => generated 3166 bytes in 566 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 37951|app: 0|req: 10/24] 127.0.0.1 () {38 vars in 652 bytes} [Mon Nov 12 10:58:28 2018] GET /static/js/jquery-ui.min.js => generated 100 bytes in 57 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37951|app: 0|req: 10/25] 127.0.0.1 () {38 vars in 660 bytes} [Mon Nov 12 10:58:28 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 68 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37952|app: 0|req: 9/26] 127.0.0.1 () {38 vars in 655 bytes} [Mon Nov 12 10:58:28 2018] GET /static/css/reset.css => generated 94 bytes in 236 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37952|app: 0|req: 9/27] 127.0.0.1 () {38 vars in 653 bytes} [Mon Nov 12 10:58:28 2018] GET /static/css/main.css => generated 93 bytes in 215 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37950|app: 0|req: 5/28] 127.0.0.1 () {38 vars in 636 bytes} [Mon Nov 12 10:58:28 2018] GET /static/js/slide.js => generated 92 bytes in 252 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37950|app: 0|req: 6/29] 127.0.0.1 () {38 vars in 631 bytes} [Mon Nov 12 10:58:29 2018] GET /images/logo.png => generated 89 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37952|app: 0|req: 10/30] 127.0.0.1 () {38 vars in 653 bytes} [Mon Nov 12 10:58:29 2018] GET /static/js/jquery-ui.min.js => generated 100 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37952|app: 0|req: 11/31] 127.0.0.1 () {38 vars in 637 bytes} [Mon Nov 12 10:58:29 2018] GET /static/js/slide.js => generated 92 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37950|app: 0|req: 7/32] 127.0.0.1 () {38 vars in 631 bytes} [Mon Nov 12 10:58:29 2018] GET /images/logo.png => generated 89 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37949|app: 0|req: 5/33] 127.0.0.1 () {36 vars in 640 bytes} [Mon Nov 12 10:58:29 2018] GET /favicon.ico => generated 85 bytes in 93 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37951|app: 0|req: 11/34] 127.0.0.1 () {38 vars in 663 bytes} [Mon Nov 12 10:59:13 2018] GET /index => generated 3166 bytes in 73 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 37949|app: 0|req: 6/35] 127.0.0.1 () {38 vars in 656 bytes} [Mon Nov 12 10:59:13 2018] GET /static/css/reset.css => generated 94 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37951|app: 0|req: 13/36] 127.0.0.1 () {38 vars in 653 bytes} [Mon Nov 12 10:59:13 2018] GET /static/js/jquery-ui.min.js => generated 100 bytes in 22 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37952|app: 0|req: 13/37] 127.0.0.1 () {38 vars in 661 bytes} [Mon Nov 12 10:59:13 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 30 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37951|app: 0|req: 13/38] 127.0.0.1 () {38 vars in 637 bytes} [Mon Nov 12 10:59:13 2018] GET /static/js/slide.js => generated 92 bytes in 26 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37952|app: 0|req: 13/39] 127.0.0.1 () {38 vars in 654 bytes} [Mon Nov 12 10:59:13 2018] GET /static/css/main.css => generated 93 bytes in 44 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37951|app: 0|req: 14/40] 127.0.0.1 () {38 vars in 631 bytes} [Mon Nov 12 10:59:13 2018] GET /images/logo.png => generated 89 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37949|app: 0|req: 7/41] 127.0.0.1 () {38 vars in 653 bytes} [Mon Nov 12 10:59:13 2018] GET /static/js/jquery-ui.min.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37949|app: 0|req: 8/42] 127.0.0.1 () {38 vars in 637 bytes} [Mon Nov 12 10:59:13 2018] GET /static/js/slide.js => generated 92 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37950|app: 0|req: 8/43] 127.0.0.1 () {38 vars in 631 bytes} [Mon Nov 12 10:59:13 2018] GET /images/logo.png => generated 89 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37950|app: 0|req: 9/44] 127.0.0.1 () {36 vars in 640 bytes} [Mon Nov 12 10:59:13 2018] GET /favicon.ico => generated 85 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37952|app: 0|req: 14/45] 127.0.0.1 () {38 vars in 663 bytes} [Mon Nov 12 10:59:54 2018] GET /index => generated 3166 bytes in 797 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 37951|app: 0|req: 15/46] 127.0.0.1 () {38 vars in 656 bytes} [Mon Nov 12 10:59:55 2018] GET /static/css/reset.css => generated 94 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37951|app: 0|req: 16/47] 127.0.0.1 () {38 vars in 637 bytes} [Mon Nov 12 10:59:55 2018] GET /static/js/slide.js => generated 92 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37949|app: 0|req: 9/48] 127.0.0.1 () {38 vars in 654 bytes} [Mon Nov 12 10:59:55 2018] GET /static/css/main.css => generated 93 bytes in 34 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37950|app: 0|req: 11/49] 127.0.0.1 () {38 vars in 661 bytes} [Mon Nov 12 10:59:55 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 32 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37950|app: 0|req: 11/50] 127.0.0.1 () {38 vars in 653 bytes} [Mon Nov 12 10:59:55 2018] GET /static/js/jquery-ui.min.js => generated 100 bytes in 33 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37952|app: 0|req: 15/51] 127.0.0.1 () {38 vars in 631 bytes} [Mon Nov 12 10:59:55 2018] GET /images/logo.png => generated 89 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37949|app: 0|req: 10/52] 127.0.0.1 () {38 vars in 637 bytes} [Mon Nov 12 10:59:55 2018] GET /static/js/slide.js => generated 92 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37951|app: 0|req: 17/53] 127.0.0.1 () {38 vars in 631 bytes} [Mon Nov 12 10:59:55 2018] GET /images/logo.png => generated 89 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37952|app: 0|req: 16/54] 127.0.0.1 () {36 vars in 640 bytes} [Mon Nov 12 10:59:55 2018] GET /favicon.ico => generated 85 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 37951|app: 0|req: 18/55] 127.0.0.1 () {36 vars in 588 bytes} [Mon Nov 12 11:00:06 2018] GET /images/logo.png => generated 89 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+Mon Nov 12 11:18:19 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Nov 12 11:18:19 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Nov 12 11:18:19 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Nov 12 11:18:19 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Nov 12 11:18:19 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Nov 12 11:18:19 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Nov 12 11:18:19 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Nov 12 11:18:19 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 11 22:01:28 2018] ***
+compiled with version: 5.4.0 20160609 on 11 November 2018 06:49:40
+os: Linux-4.15.0-36-generic #39~16.04.1-Ubuntu SMP Tue Sep 25 08:59:23 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/zhangjunpeng/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/zhangjunpeng/.virtualenvs/zjp_py3/bin/uwsgi
+chdir() to /home/zhangjunpeng/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/zhangjunpeng/.virtualenvs/zjp_py3
+Python main interpreter initialized at 0xe62f00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0xe62f00 pid: 41944 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 41944)
+spawned uWSGI worker 1 (pid: 41946, cores: 2)
+spawned uWSGI worker 2 (pid: 41947, cores: 2)
+spawned uWSGI worker 3 (pid: 41948, cores: 2)
+spawned uWSGI worker 4 (pid: 41949, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+设置缓存
+[pid: 41946|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 697 bytes} [Mon Nov 12 14:02:16 2018] GET /index => generated 3166 bytes in 4575 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 41949|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 660 bytes} [Mon Nov 12 14:02:21 2018] GET /images/logo.png => generated 89 bytes in 2779 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 41949|app: 0|req: 2/3] 127.0.0.1 () {38 vars in 674 bytes} [Mon Nov 12 14:02:24 2018] GET /favicon.ico => generated 85 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 41949|app: 0|req: 3/4] 127.0.0.1 () {42 vars in 714 bytes} [Mon Nov 12 14:03:38 2018] GET /images/logo.png => generated 89 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 41946|app: 0|req: 2/5] 127.0.0.1 () {38 vars in 674 bytes} [Mon Nov 12 14:40:45 2018] GET /favicon.ico => generated 85 bytes in 183 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 41947|app: 0|req: 1/6] 127.0.0.1 () {38 vars in 674 bytes} [Mon Nov 12 14:43:52 2018] GET /favicon.ico => generated 85 bytes in 1977 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 41946|app: 0|req: 3/7] 127.0.0.1 () {38 vars in 674 bytes} [Mon Nov 12 14:46:34 2018] GET /favicon.ico => generated 85 bytes in 37 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 41946|app: 0|req: 4/8] 127.0.0.1 () {38 vars in 674 bytes} [Mon Nov 12 14:51:02 2018] GET /favicon.ico => generated 85 bytes in 54 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 41946|app: 0|req: 5/9] 127.0.0.1 () {38 vars in 674 bytes} [Mon Nov 12 15:00:27 2018] GET /favicon.ico => generated 85 bytes in 177 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+设置缓存
+[pid: 41946|app: 0|req: 6/10] 127.0.0.1 () {40 vars in 697 bytes} [Mon Nov 12 15:03:40 2018] GET /index => generated 3166 bytes in 1262 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 41948|app: 0|req: 1/11] 127.0.0.1 () {40 vars in 660 bytes} [Mon Nov 12 15:03:47 2018] GET /images/logo.png => generated 89 bytes in 5986 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 41949|app: 0|req: 4/12] 127.0.0.1 () {40 vars in 660 bytes} [Mon Nov 12 15:04:14 2018] GET /images/logo.png => generated 89 bytes in 37 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 41949|app: 0|req: 5/13] 127.0.0.1 () {38 vars in 674 bytes} [Mon Nov 12 15:04:15 2018] GET /favicon.ico => generated 85 bytes in 26 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 12 02:09:03 2018] ***
+compiled with version: 5.4.0 20160609 on 11 November 2018 06:49:40
+os: Linux-4.15.0-36-generic #39~16.04.1-Ubuntu SMP Tue Sep 25 08:59:23 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/zhangjunpeng/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/zhangjunpeng/.virtualenvs/zjp_py3/bin/uwsgi
+chdir() to /home/zhangjunpeng/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/zhangjunpeng/.virtualenvs/zjp_py3
+Python main interpreter initialized at 0x18e5ee0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x18e5ee0 pid: 6834 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6834)
+spawned uWSGI worker 1 (pid: 6836, cores: 2)
+spawned uWSGI worker 2 (pid: 6837, cores: 2)
+spawned uWSGI worker 3 (pid: 6838, cores: 2)
+spawned uWSGI worker 4 (pid: 6839, cores: 2)
+[pid: 6838|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 674 bytes} [Mon Nov 12 18:11:08 2018] GET /favicon.ico => generated 85 bytes in 1267 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6838|app: 0|req: 2/2] 127.0.0.1 () {40 vars in 655 bytes} [Mon Nov 12 18:13:22 2018] GET /images/logo.png => generated 89 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6838|app: 0|req: 3/3] 127.0.0.1 () {40 vars in 661 bytes} [Mon Nov 12 18:13:22 2018] GET /images/slide04.jpg => generated 92 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 2/4] 127.0.0.1 () {40 vars in 657 bytes} [Mon Nov 12 18:13:22 2018] GET /images/adv02.jpg => generated 90 bytes in 3548 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6838|app: 0|req: 5/11] 127.0.0.1 () {40 vars in 675 bytes} [Mon Nov 12 18:13:26 2018] GET /images/goods/goods002.jpg => generated 99 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 2/5] 127.0.0.1 () {40 vars in 661 bytes} [Mon Nov 12 18:13:22 2018] GET /images/slide02.jpg => generated 92 bytes in 3574 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6837|app: 0|req: 2/6] 127.0.0.1 () {40 vars in 661 bytes} [Mon Nov 12 18:13:22 2018] GET /images/slide03.jpg => generated 92 bytes in 3566 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6837|app: 0|req: 2/7] 127.0.0.1 () {40 vars in 657 bytes} [Mon Nov 12 18:13:22 2018] GET /images/slide.jpg => generated 90 bytes in 3579 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6836|app: 0|req: 2/8] 127.0.0.1 () {40 vars in 663 bytes} [Mon Nov 12 18:13:22 2018] GET /images/banner01.jpg => generated 93 bytes in 3539 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6836|app: 0|req: 2/9] 127.0.0.1 () {40 vars in 657 bytes} [Mon Nov 12 18:13:22 2018] GET /images/adv01.jpg => generated 90 bytes in 3560 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6838|app: 0|req: 4/10] 127.0.0.1 () {40 vars in 675 bytes} [Mon Nov 12 18:13:26 2018] GET /images/goods/goods003.jpg => generated 99 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6836|app: 0|req: 3/12] 127.0.0.1 () {40 vars in 675 bytes} [Mon Nov 12 18:13:26 2018] GET /images/goods/goods001.jpg => generated 99 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 3/13] 127.0.0.1 () {40 vars in 675 bytes} [Mon Nov 12 18:13:26 2018] GET /images/goods/goods012.jpg => generated 99 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6837|app: 0|req: 3/14] 127.0.0.1 () {40 vars in 663 bytes} [Mon Nov 12 18:13:26 2018] GET /images/banner02.jpg => generated 93 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6838|app: 0|req: 6/15] 127.0.0.1 () {40 vars in 675 bytes} [Mon Nov 12 18:13:26 2018] GET /images/goods/goods018.jpg => generated 99 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6838|app: 0|req: 8/16] 127.0.0.1 () {40 vars in 675 bytes} [Mon Nov 12 18:13:26 2018] GET /images/goods/goods019.jpg => generated 99 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6836|app: 0|req: 5/18] 127.0.0.1 () {40 vars in 675 bytes} [Mon Nov 12 18:13:26 2018] GET /images/goods/goods020.jpg => generated 99 bytes in 20 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6838|app: 0|req: 8/18] 127.0.0.1 () {40 vars in 663 bytes} [Mon Nov 12 18:13:26 2018] GET /images/banner04.jpg => generated 93 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6837|app: 0|req: 4/19] 127.0.0.1 () {40 vars in 675 bytes} [Mon Nov 12 18:13:26 2018] GET /images/goods/goods021.jpg => generated 99 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6836|app: 0|req: 5/20] 127.0.0.1 () {40 vars in 657 bytes} [Mon Nov 12 18:13:26 2018] GET /images/goods.jpg => generated 90 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 4/21] 127.0.0.1 () {40 vars in 663 bytes} [Mon Nov 12 18:13:26 2018] GET /images/banner03.jpg => generated 93 bytes in 15 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6837|app: 0|req: 5/22] 127.0.0.1 () {40 vars in 655 bytes} [Mon Nov 12 18:13:26 2018] GET /images/logo.png => generated 89 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 5/23] 127.0.0.1 () {40 vars in 663 bytes} [Mon Nov 12 18:13:26 2018] GET /images/banner05.jpg => generated 93 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6838|app: 0|req: 9/24] 127.0.0.1 () {40 vars in 663 bytes} [Mon Nov 12 18:13:26 2018] GET /images/banner06.jpg => generated 93 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6836|app: 0|req: 6/25] 127.0.0.1 () {40 vars in 661 bytes} [Mon Nov 12 18:13:26 2018] GET /images/slide04.jpg => generated 92 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6838|app: 0|req: 10/26] 127.0.0.1 () {38 vars in 674 bytes} [Mon Nov 12 18:13:26 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 6836)...
+Gracefully killing worker 3 (pid: 6838)...
+Gracefully killing worker 2 (pid: 6837)...
+worker 1 buried after 11 seconds
+worker 2 buried after 10 seconds
+worker 3 buried after 10 seconds
+worker 4 buried after 10 seconds
+binary reloading uWSGI...
+chdir() to /home/zhangjunpeng/dailyfresh
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8080)
+running /home/zhangjunpeng/.virtualenvs/zjp_py3/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Dec 12 15:17:31 2018] ***
+compiled with version: 5.4.0 20160609 on 11 November 2018 06:49:40
+os: Linux-4.15.0-36-generic #39~16.04.1-Ubuntu SMP Tue Sep 25 08:59:23 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/zhangjunpeng/dailyfresh
+detected binary path: /home/zhangjunpeng/.virtualenvs/zjp_py3/bin/uwsgi
+chdir() to /home/zhangjunpeng/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/zhangjunpeng/.virtualenvs/zjp_py3
+Python main interpreter initialized at 0x1c54260
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1c54260 pid: 6834 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 6834)
+spawned uWSGI worker 1 (pid: 37504, cores: 2)
+spawned uWSGI worker 2 (pid: 37505, cores: 2)
+spawned uWSGI worker 3 (pid: 37508, cores: 2)
+spawned uWSGI worker 4 (pid: 37509, cores: 2)

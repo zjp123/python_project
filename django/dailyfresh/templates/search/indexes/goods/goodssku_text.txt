@@ -1,0 +1,4 @@
+# 指定索引的字段
+{{ object.name }}  # 以GoodsSKU类中的name字段建立
+{{ object.desc }}  # 以GoodsSKU类中的desc字段建立
+{{ object.goods.detail }}  # 以Goods类中的detail字段建立
